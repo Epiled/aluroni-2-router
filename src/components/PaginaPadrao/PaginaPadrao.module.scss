@@ -11,7 +11,7 @@
   padding: 0px $padding-horizontal;
 
   @media (max-width: $desktop_xsm) {
-    padding: 0px $padding-horizontal-mobile;
+    padding: 0px $padding-horizontal-mobile-init;
   }
 
   @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
@@ -27,5 +27,11 @@
     font-size: 5rem;
     min-width: 400px;
     width: 40%;
+
+    @media (max-width: $desktop_xsm) {
+      font-size: 3.5rem;
+      width: 100%;
+      min-width: none;
+    }
   }
 }

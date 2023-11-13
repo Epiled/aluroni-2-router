@@ -22,7 +22,12 @@
 }
 
 .imagem {
-  width: 600px;
+  max-width: 600px;
+  width: 100%;
+
+  @media (max-width: $mobile) {
+    max-width: none;
+  }
 
   img {
     border-radius: 8px;

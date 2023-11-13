@@ -14,7 +14,7 @@
   }
   &__imagem {
     min-width: 240px;
-    @media (max-width: $desktop_xsm) {
+    @media (max-width: $mobile) {
       width: 100%;
     }
     img {

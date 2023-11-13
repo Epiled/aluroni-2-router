@@ -3,7 +3,7 @@
 .container {
   padding: 50px $padding-horizontal;
   @media (max-width: $desktop_xsm) {
-    padding: 50px $padding-horizontal-mobile;
+    padding: 50px $padding-horizontal-mobile-init;
   }
   @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
     padding: 50px $padding-horizontal-sm;
