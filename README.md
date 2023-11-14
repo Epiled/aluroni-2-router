@@ -8,7 +8,7 @@ Projeto do curso <a href="https://cursos.alura.com.br/course/react-biblioteca-re
 | :label: Tecnologias | html, css, js, sass, css modules, node, typescript, react
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![thumb-aluroni](https://github.com/Epiled/aluroni/assets/55258483/e0df6833-3ec3-425a-892a-55b597242b34#vitrinedev)
+![thumb-aluroni-2](https://github.com/Epiled/aluroni-2-router/assets/55258483/4be912b8-cf45-4a92-9431-1e4e8474ac89#vitrinedev)
 
 <h2 id="detalhes-do-projeto"> 📃 Detalhes do projeto </h2>
 
