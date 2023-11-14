@@ -1,10 +1,10 @@
-# 🍕 Aluroni
+# 🍕🍷 Aluroni 2 Rotas
 
-Projeto do curso <a href="https://cursos.alura.com.br/course/react-biblioteca-react-router">React: lidando com arquivos estáticos</a> da Alura, curso ministrado pelo instrutoro <a href="https://www.linkedin.com/in/lfrprazeres/">Luiz Fernando Ribeiro</a>.
+Projeto do curso <a href="https://cursos.alura.com.br/course/react-biblioteca-react-router">React: conhecendo a biblioteca React Router</a> da Alura, curso ministrado pelo instrutoro <a href="https://www.linkedin.com/in/lfrprazeres/">Luiz Fernando Ribeiro</a>.
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **Aluroni**
+| :sparkles: Nome        | **Aluroni 2 Rotas**
 | :label: Tecnologias | html, css, js, sass, css modules, node, typescript, react
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
@@ -12,16 +12,18 @@ Projeto do curso <a href="https://cursos.alura.com.br/course/react-biblioteca-re
 
 <h2 id="detalhes-do-projeto"> 📃 Detalhes do projeto </h2>
 
-Neste projeto, foi desenvolvida uma página de cardápio para o restaurante Aluroni, que inclui filtros de busca, opções de ordenação e um campo de busca.
+Neste projeto, foram desenvolvidas diversas páginas para o restaurante Aluroni, incluindo um cardápio detalhado com informações sobre seus pratos, além de filtros de busca e ordenação. Também foi implementada uma lógica para exibir uma página de erro caso o usuário acesse uma URL que não exista.
+
+Um ESLint foi configurado para garantir o padrão e a qualidade do código.
 
 O código foi desenvolvido em React com TypeScript e estilizado usando CSS Modules e Sass.
 
-![Badge](https://img.shields.io/github/last-commit/Epiled/aluroni?style=for-the-badge)
-![Badge](https://img.shields.io/github/languages/code-size/Epiled/aluroni?style=for-the-badge)
-![Badge](https://img.shields.io/github/languages/count/Epiled/aluroni?style=for-the-badge)
+![Badge](https://img.shields.io/github/last-commit/Epiled/aluroni-2-router?style=for-the-badge)
+![Badge](https://img.shields.io/github/languages/code-size/Epiled/aluroni-2-router?style=for-the-badge)
+![Badge](https://img.shields.io/github/languages/count/Epiled/aluroni-2-router?style=for-the-badge)
 ![Bagde](https://img.shields.io/badge/repo%20status-Beta-cyan?style=for-the-badge)
-![Bagde](https://img.shields.io/github/v/release/Epiled/aluroni?style=for-the-badge)
-![Bagde](https://img.shields.io/github/license/Epiled/aluroni?style=for-the-badge)
+![Bagde](https://img.shields.io/github/v/release/Epiled/aluroni-2-router?style=for-the-badge)
+![Bagde](https://img.shields.io/github/license/Epiled/aluroni-2-router?style=for-the-badge)
 
 ![Badge](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![Badge](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -38,7 +40,11 @@ O código foi desenvolvido em React com TypeScript e estilizado usando CSS Modul
    * [Detalhes do projeto](#detalhes-do-projeto)
    * [Tópicos Desenvolvidos](#topicos-curso)
    * [Demonstração](#demonstracao)
-     - [Home](#home)
+     - [Início](#inicio)
+     - [Cardapio](#cardapio)
+     - [Sobre](#sobre)
+     - [Prato](#prato)
+     - [Not Found 404](#notFound404)
    * [Pré-Requisito](#pre-requisito)
    * [Instalação](#instalacao)
    * [Como usar](#como-usar)
@@ -49,22 +55,45 @@ O código foi desenvolvido em React com TypeScript e estilizado usando CSS Modul
 <h2 id="topicos-curso"> 👩‍🏫 Tópicos desenvolvidos</h2>
 
 <!--ts-->
-* Crie um projeto do zero com Create React App
-* Aprenda a utilizar o normalize.css para resetar estilos padrões de navegadores
-* Configure absolute imports para não precisar mais importar arquivos com vários níveis ('../../../')
-* Aprenda boas práticas em CSS como criar variáveis, criar arquivos para estas variáveis e para breakpoints de media-queries
-* Utilize o pacote classnames para poder utilizar o CSS Modules sem precisar concatenar um monte de estilos CSS e lidar com estilos condicionais
-* Aprenda como utilizar o SVGR, um pacote que vem no Create React App para importar svgs como componentes React
-* Entenda como o React entende os imports estáticos tanto via arquivos .js quanto em arquivos de estilos como .scss ou .css. Aprenda como importar arquivos estáticos como * variáveis via js ou utilizando a pasta public para imports dinâmicos de arquivos estáticos
+* Saiba como refatorar um projeto utilizando ESLint
+* Desenvolva um código escalável, priorizando um código limpo e fácil de entender
+* Utilize o pacote react-router-dom de forma simples e prática, aprendendo todos os conceitos principais da biblioteca
+* Descubra como a biblioteca se integra com o navegador e utiliza de coisas nativas para mudar as rotas e compartilhar estados
+* Crie telas navegando entre elas de diversas formas diferentes e reaproveite componentes eles elas
+* Entenda sobre nested routes e como criá-las para reaproveitar código e resolver problemas
 <!--te-->
 
 <h2 id="demonstracao"> 👀 Demonstração </h2>
 
-<h3 id="home"> Home </h3>
+<h3 id="inicio"> Início </h3>
 
-https://github.com/Epiled/aluroni/assets/55258483/d6a281ba-d5fc-463f-98c0-29de81e381a5
+https://github.com/Epiled/aluroni-2-router/assets/55258483/d1d7bba5-3ae3-4cb5-8347-d3b095156d67
 
-https://github.com/Epiled/aluroni/assets/55258483/b0c2c8be-7f23-4d87-80a3-00f390fc9993
+
+
+<h3 id="cardapio"> Cardapio </h3>
+
+https://github.com/Epiled/aluroni-2-router/assets/55258483/a55b9681-7434-47e8-9db8-b5c2b6745e15
+
+
+
+<h3 id="sobre"> Sobre </h3>
+
+https://github.com/Epiled/aluroni-2-router/assets/55258483/6f1861fa-62e5-4c31-80db-842357ac5fa9
+
+
+
+<h3 id="prato"> Prato </h3>
+
+https://github.com/Epiled/aluroni-2-router/assets/55258483/00c2ebad-8702-49d6-8a90-633009b6bb9a
+
+
+
+<h3 id="notFound404"> Not Found 404 </h3>
+
+https://github.com/Epiled/aluroni-2-router/assets/55258483/dcab9311-a639-42a6-b135-7ce38aa8ea75
+
+
 
 <h2 id="pre-requisito"> 🚨 Pré-requisito </h2>
 <ul>
@@ -74,8 +103,8 @@ https://github.com/Epiled/aluroni/assets/55258483/b0c2c8be-7f23-4d87-80a3-00f390
 <h2 id="instalacao"> ⚙ Instalação </h2>
 
 ```
-1. git clone https://github.com/Epiled/aluroni.git
-2. cd aluroni
+1. git clone https://github.com/Epiled/aluroni-2-router.git
+2. cd aluroni-2-router
 3. npm install
 ```
 
