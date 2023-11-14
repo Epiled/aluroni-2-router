@@ -67,33 +67,33 @@ O código foi desenvolvido em React com TypeScript e estilizado usando CSS Modul
 
 <h3 id="inicio"> Início </h3>
 
-https://github.com/Epiled/aluroni-2-router/assets/55258483/d1d7bba5-3ae3-4cb5-8347-d3b095156d67
+https://github.com/Epiled/aluroni-2-router/assets/55258483/65004157-72ab-4979-9542-c64583196d21
 
-
+https://github.com/Epiled/aluroni-2-router/assets/55258483/9beeb7ab-0f8d-4b8a-b5a1-8b3e03c94286
 
 <h3 id="cardapio"> Cardapio </h3>
 
 https://github.com/Epiled/aluroni-2-router/assets/55258483/a55b9681-7434-47e8-9db8-b5c2b6745e15
 
-
+https://github.com/Epiled/aluroni-2-router/assets/55258483/c50e4d65-c10c-4187-a3bb-c15859ff1c96
 
 <h3 id="sobre"> Sobre </h3>
 
 https://github.com/Epiled/aluroni-2-router/assets/55258483/6f1861fa-62e5-4c31-80db-842357ac5fa9
 
-
+https://github.com/Epiled/aluroni-2-router/assets/55258483/f2fa2ad6-b50a-4165-9b8b-27e29993d50b
 
 <h3 id="prato"> Prato </h3>
 
 https://github.com/Epiled/aluroni-2-router/assets/55258483/00c2ebad-8702-49d6-8a90-633009b6bb9a
 
-
+https://github.com/Epiled/aluroni-2-router/assets/55258483/4d314941-8df8-4953-ab97-025c8fa48fb5
 
 <h3 id="notFound404"> Not Found 404 </h3>
 
 https://github.com/Epiled/aluroni-2-router/assets/55258483/dcab9311-a639-42a6-b135-7ce38aa8ea75
 
-
+https://github.com/Epiled/aluroni-2-router/assets/55258483/a74bbc06-a447-4f2e-8177-1df4c0e20138
 
 <h2 id="pre-requisito"> 🚨 Pré-requisito </h2>
 <ul>
