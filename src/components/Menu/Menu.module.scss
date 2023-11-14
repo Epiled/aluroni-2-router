@@ -7,8 +7,9 @@
   position: relative;
 
   @media (max-width: $desktop_xsm) {
-    justify-content: center;
-    padding: 20px $padding-horizontal-mobile;
+    justify-content: space-between;
+    padding: 20px $padding-horizontal-mobile-init;
+    align-items: center;
   }
 
   @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
@@ -22,12 +23,22 @@
   &__list {
     align-items: center;
     display: flex;
-    @media (max-width: $desktop_xsm) {
+
+    @media (max-width: $mobile) {
       flex-direction: column;
       position: absolute;
       top: 100%;
-      right: 0;
+      right: -200px;
       gap: 1rem;
+      background: $red;
+      margin: 0;
+      padding: 1rem;
+      border-radius: 0 0 0 10px;
+      transition: right .5s;
+
+      &--ativo {
+        right: 0;
+      }
     }
   }
 
@@ -42,6 +53,10 @@
       font-weight: 600;
       text-decoration: none;
       transition: .2s ease;
+
+      @media (max-width: $mobile) {
+        color: $light-grey;
+      }
 
       &:hover {
         color: $dark-grey;

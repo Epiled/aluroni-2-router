@@ -18,7 +18,7 @@ export default function NotFound() {
           {'< Voltar'}
         </button>
       </div>
-      <NotFoundImage />
+      <NotFoundImage className={styles.imagem} />
     </div>
   );
 }
