@@ -1,6 +1,6 @@
 # 🍕🍷 Aluroni 2 Rotas
 
-Projeto do curso <a href="https://cursos.alura.com.br/course/react-biblioteca-react-router">React: conhecendo a biblioteca React Router</a> da Alura, curso ministrado pelo instrutoro <a href="https://www.linkedin.com/in/lfrprazeres/">Luiz Fernando Ribeiro</a>.
+Projeto do curso <a href="https://cursos.alura.com.br/course/react-biblioteca-react-router">React: conhecendo a biblioteca React Router</a> da Alura, curso ministrado pelo instrutor <a href="https://www.linkedin.com/in/lfrprazeres/">Luiz Fernando Ribeiro</a>.
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
